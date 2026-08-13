@@ -95,7 +95,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 40px 60px 80px;
+  padding: 40px 60px 40px;
   background-color: #ffffff;
 }
 
@@ -147,9 +147,11 @@ body {
   .screenshots-grid {
     grid-template-columns: 1fr;
   }
+
   .screenshots-section {
     padding: 40px 30px;
   }
+
   .download-section {
     flex-direction: column;
     padding: 20px 30px 40px;
@@ -200,7 +202,6 @@ body {
   text-align: center;
   padding: 40px 20px;
   background-color: transparent;
-  margin-top: auto;
 }
 
 .site-footer p {

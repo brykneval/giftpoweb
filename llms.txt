@@ -1,0 +1,19 @@
+# GiftPo
+
+> GiftPo is a platform designed to help you truly value the gifts you send and receive. Build deeper, more meaningful connections through thoughtful gifting.
+
+## Overview
+GiftPo is a smart mobile application available for iOS and Android that focuses on the sentimental value of gifting rather than just the management of items.
+
+## Features
+- **Nurture Gifts**: Easily keep track of all your wonderful gifts and nurture the relationships that matter most.
+- **Accept Gifts**: Seamlessly accept and organize gifts sent by your loved ones without any stress or hassle.
+- **Invite Friends**: Bring your friends on board to share the joy. The gifting experience is always better together.
+
+## Policies
+- [Privacy Policy](https://giftpo.com/privacy.html)
+- [Terms of Service](https://giftpo.com/terms.html)
+- [Data Deletion Policy](https://giftpo.com/data-deletion.html)
+
+## Contact
+Support Email: notepoapp@gmail.com

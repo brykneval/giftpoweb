@@ -20,13 +20,22 @@
   </head>
   <body>
     <div class="page-container">
-      <!-- Site Header -->
       <header class="site-header">
         <div class="header-container">
           <a href="{{ "/" | relative_url }}" class="brand-link" aria-label="GiftPo Home">
             <img src="{{ "/apple-touch-icon.png" | relative_url }}" alt="GiftPo Logo" class="brand-logo" width="40" height="40">
             <span class="brand-name">Gift<span>Po</span></span>
           </a>
+          <nav aria-label="Main Navigation">
+            <ul class="nav-menu">
+              <li><a href="{{ "/" | relative_url }}" class="nav-link">Home</a></li>
+              <li><a href="{{ "/#purpose" | relative_url }}" class="nav-link">App Purpose</a></li>
+              <li><a href="{{ "/#features" | relative_url }}" class="nav-link">Features</a></li>
+              <li><a href="{{ "/privacy.html" | relative_url }}" class="nav-link">Privacy</a></li>
+              <li><a href="{{ "/terms.html" | relative_url }}" class="nav-link">Terms</a></li>
+              <li><a href="{{ "/data-deletion.html" | relative_url }}" class="nav-link">Data Deletion</a></li>
+            </ul>
+          </nav>
         </div>
       </header>
 

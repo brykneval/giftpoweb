@@ -7,27 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#e61533">
 
-  <title>GiftPo - Value Your Gifts</title>
+  <title>GiftPo - Value Your Gifts & Meaningful Gifting App</title>
   <meta name="description"
-    content="GiftPo is a platform designed to help you truly value the gifts you send and receive. Build deeper, more meaningful connections through thoughtful gifting.">
-  <meta name="keywords" content="GiftPo, value gifts, send gifts, receive gifts, meaningful gifting, GiftPo app">
+    content="GiftPo is a smart mobile application designed to help you track, organize, and cherish every gift you give and receive. Build deeper, more meaningful connections through thoughtful gifting.">
+  <meta name="keywords" content="GiftPo, gift tracker, gift app, value gifts, send gifts, receive gifts, meaningful gifting, gift organizer, gift memories">
   <meta name="author" content="GiftPo">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph / Social -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="GiftPo - Value Your Gifts">
+  <meta property="og:title" content="GiftPo - Value Your Gifts & Meaningful Gifting App">
   <meta property="og:description"
-    content="A smart way to manage and discover gifts. Nurture relationships and accept gifts effortlessly with GiftPo.">
-  <meta property="og:image" content="./image/giftpo-nurture-gifts.webp">
+    content="A smart way to manage and discover gifts. Nurture relationships, track sentimental moments, and accept gifts effortlessly with GiftPo.">
+  <meta property="og:image" content="./apple-touch-icon.png">
   <meta property="og:url" content="https://giftpo.com">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="GiftPo - Value Your Gifts">
+  <meta name="twitter:title" content="GiftPo - Value Your Gifts & Meaningful Gifting App">
   <meta name="twitter:description"
-    content="A smart way to manage and discover gifts. Nurture relationships and accept gifts effortlessly with GiftPo.">
-  <meta name="twitter:image" content="./image/giftpo-nurture-gifts.webp">
+    content="A smart way to manage and discover gifts. Nurture relationships, track sentimental moments, and accept gifts effortlessly with GiftPo.">
+  <meta name="twitter:image" content="./apple-touch-icon.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,73 +42,338 @@
 
 <body>
   <div class="page-container">
-    <!-- Header -->
+    <!-- Navigation Header -->
     <header class="site-header">
       <div class="header-container">
         <a href="./index.html" class="brand-link" aria-label="GiftPo Home">
-          <img src="./apple-touch-icon.png" alt="GiftPo Logo" class="brand-logo" width="38" height="38">
+          <img src="./apple-touch-icon.png" alt="GiftPo Logo" class="brand-logo" width="40" height="40">
           <span class="brand-name">Gift<span>Po</span></span>
         </a>
+        <nav aria-label="Main Navigation">
+          <ul class="nav-menu">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#purpose" class="nav-link">Purpose</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+            <li><a href="./privacy.html" class="nav-link">Privacy</a></li>
+            <li><a href="./terms.html" class="nav-link">Terms</a></li>
+            <li><a href="#download" class="nav-cta-btn">Get the App</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
     <main>
-      <!-- Core Features Section -->
-      <section class="screenshots-section">
-        <h1 class="sr-only">GiftPo - Value Your Gifts</h1>
-        <div class="screenshots-grid">
-          <div class="screenshot-card card-1">
-            <h3>Nurture<br><span class="highlight">Gifts</span></h3>
-            <p>Easily keep track of all your wonderful gifts, preserve memories, and nurture the relationships that matter most with GiftPo.</p>
-            <img src="./image/giftpo-nurture-gifts.webp"
-              alt="GiftPo app interface showing how to nurture gifts and track them" class="app-screenshot">
+      <!-- Hero Section -->
+      <section class="hero-section" id="hero">
+        <div class="section-container">
+          <div class="hero-badge">
+            <span>🎁</span>
+            <span>The Thoughtful Gift Management Platform</span>
           </div>
-          <div class="screenshot-card card-2">
-            <h3>Accept<br><span class="highlight">Gifts</span></h3>
-            <p>Seamlessly accept and organize gifts sent by your loved ones without any stress or hassle on GiftPo.</p>
-            <img src="./image/giftpo-accept-gifts.webp"
-              alt="GiftPo app interface displaying the accept gifts feature" class="app-screenshot">
-          </div>
-          <div class="screenshot-card card-3">
-            <h3>Invite<br><span class="highlight">Friends</span></h3>
-            <p>Bring your friends on board to share the joy and exchange wishlists. The gifting experience is always better together.</p>
-            <img src="./image/giftpo-invite-friends.webp"
-              alt="GiftPo app interface illustrating the invite friends functionality" class="app-screenshot">
+          <h1 class="hero-title">
+            <span class="brand-gradient">GiftPo</span> — Value Your Gifts &amp; Cherish Every Connection
+          </h1>
+          <p class="hero-description">
+            GiftPo is an intuitive mobile application designed to help you track, organize, and cherish the sentimental value of every gift you send and receive. Never forget a heartfelt moment and nurture the relationships that matter most.
+          </p>
+
+          <div class="hero-actions" id="download">
+            <a href="#" class="store-btn apple-btn" aria-label="Download GiftPo on the Apple App Store">
+              <svg viewBox="0 0 384 512" width="22" height="22" fill="currentColor">
+                <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+              </svg>
+              <div class="store-text">
+                <span class="small-text">Download on the</span>
+                <span class="large-text">App Store</span>
+              </div>
+            </a>
+            <a href="#" class="store-btn google-btn" aria-label="Get GiftPo on Google Play">
+              <svg viewBox="0 0 512 512" width="22" height="22" fill="currentColor">
+                <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z" />
+              </svg>
+              <div class="store-text">
+                <span class="small-text">GET IT ON</span>
+                <span class="large-text">Google Play</span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
 
-      <!-- Download Section -->
-      <section class="download-section">
-        <a href="#" class="store-btn apple-btn" aria-label="Download GiftPo on the App Store">
-          <svg viewBox="0 0 384 512" width="24" height="24" fill="currentColor">
-            <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
-          </svg>
-          <div class="store-text">
-            <span class="small-text">Download on the</span>
-            <span class="large-text">App Store</span>
+      <!-- Application Purpose Section -->
+      <section class="section purpose-section" id="purpose">
+        <div class="section-container">
+          <div class="section-header" id="about">
+            <span class="section-badge">Application Purpose</span>
+            <h2 class="section-title">What is GiftPo and Why We Built It</h2>
+            <p class="section-subtitle">
+              Gifts are not just material objects — they represent milestones, affection, and personal bonds. GiftPo was created to give your gifts a lasting home and make every gifting occasion meaningful.
+            </p>
           </div>
-        </a>
-        <a href="#" class="store-btn google-btn" aria-label="Get GiftPo on Google Play">
-          <svg viewBox="0 0 512 512" width="24" height="24" fill="currentColor">
-            <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z" />
-          </svg>
-          <div class="store-text">
-            <span class="small-text">GET IT ON</span>
-            <span class="large-text">Google Play</span>
+
+          <div class="purpose-grid">
+            <div class="purpose-card">
+              <div class="purpose-icon">💝</div>
+              <h3>Preserve Sentimental Value</h3>
+              <p>
+                Keep a dedicated memory log of every gift you receive or present. Attach pictures, write personal notes, record special dates, and look back fondly at cherished moments.
+              </p>
+            </div>
+
+            <div class="purpose-card">
+              <div class="purpose-icon">🤝</div>
+              <h3>Nurture Personal Relationships</h3>
+              <p>
+                Strengthen bonds with friends, family, and loved ones. Always remember who gave you each gift, express heartfelt gratitude, and reciprocate with thoughtful surprises.
+              </p>
+            </div>
+
+            <div class="purpose-card">
+              <div class="purpose-icon">✨</div>
+              <h3>Seamless Gift Exchange &amp; Sharing</h3>
+              <p>
+                Eliminate gifting confusion. Accept incoming gifts seamlessly, share wishlists, invite your circle, and explore inspiring gift ideas tailored to your community.
+              </p>
+            </div>
           </div>
-        </a>
+
+          <!-- OAuth & Google Sign-In Transparency Card -->
+          <div class="oauth-card">
+            <div class="oauth-badge-icon">🔐</div>
+            <div class="oauth-content">
+              <h3>Google Sign-In &amp; Account Authentication</h3>
+              <p>
+                GiftPo utilizes <strong>Google Sign-In (OAuth 2.0)</strong> to provide users with a secure, fast, and password-free authentication experience. When you choose to sign in with your Google account, GiftPo requests access solely to your basic profile details (your name, email address, and avatar photo).
+              </p>
+              <p>
+                This information is used strictly to establish your verified GiftPo account, protect your data, and synchronize your gift history securely across your devices.
+              </p>
+              <ul>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Used solely for identity verification &amp; profile sync
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  No access to your emails, Google Drive, or contacts
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Your personal data is never sold or used for ads
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  One-tap account and data deletion anytime in Settings
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- App Features Section -->
+      <section class="section features-section" id="features">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-badge">Core Features</span>
+            <h2 class="section-title">Designed for Thoughtful Gifting</h2>
+            <p class="section-subtitle">
+              Explore how GiftPo simplifies gift organization and helps you cherish meaningful memories every day.
+            </p>
+          </div>
+
+          <div class="screenshots-grid">
+            <div class="screenshot-card card-1">
+              <h3>Nurture <br><span class="highlight">Gifts</span></h3>
+              <p>Easily keep track of all your wonderful gifts, save memorable photos, and nurture the relationships that matter most.</p>
+              <img src="./image/giftpo-nurture-gifts.webp"
+                alt="GiftPo app interface showing how to nurture gifts and track them" class="app-screenshot" loading="lazy">
+            </div>
+
+            <div class="screenshot-card card-2">
+              <h3>Accept <br><span class="highlight">Gifts</span></h3>
+              <p>Seamlessly accept and organize gifts sent by your loved ones with a single tap, without any stress or hassle.</p>
+              <img src="./image/giftpo-accept-gifts.webp"
+                alt="GiftPo app interface displaying the accept gifts feature" class="app-screenshot" loading="lazy">
+            </div>
+
+            <div class="screenshot-card card-3">
+              <h3>Invite <br><span class="highlight">Friends</span></h3>
+              <p>Bring your friends and family on board to share the joy, view wishlists, and make every celebration special together.</p>
+              <img src="./image/giftpo-invite-friends.webp"
+                alt="GiftPo app interface illustrating the invite friends functionality" class="app-screenshot" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works Section -->
+      <section class="section steps-section" id="how-it-works">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-badge">Simple &amp; Intuitive</span>
+            <h2 class="section-title">How GiftPo Works</h2>
+            <p class="section-subtitle">
+              Get started with GiftPo in three easy steps and transform the way you experience gifting.
+            </p>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step-card">
+              <div class="step-number">1</div>
+              <h3>Sign In Securely</h3>
+              <p>
+                Log in instantly using Google Sign-In. Your profile is authenticated securely without the need for complicated passwords.
+              </p>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">2</div>
+              <h3>Log &amp; Organize Gifts</h3>
+              <p>
+                Record gifts you've received or sent. Add descriptions, attach photos, categorize occasions, and tag sentimental value.
+              </p>
+            </div>
+
+            <div class="step-card">
+              <div class="step-number">3</div>
+              <h3>Connect &amp; Cherish</h3>
+              <p>
+                Share gifts with your contacts, accept new incoming surprises, and maintain a lifelong, beautiful journal of your gifting memories.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust & Security Commitment Section -->
+      <section class="section security-section">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-badge">Privacy &amp; Security</span>
+            <h2 class="section-title">Your Trust is Our Highest Priority</h2>
+            <p class="section-subtitle">
+              GiftPo is built with rigorous privacy standards to keep your personal data and gift memories secure.
+            </p>
+          </div>
+
+          <div class="trust-grid">
+            <div class="trust-item">
+              <div class="trust-icon">🔒</div>
+              <h4>Data Encryption</h4>
+              <p>All network communications and data storage are protected with industry-standard encryption protocols.</p>
+            </div>
+            <div class="trust-item">
+              <div class="trust-icon">🛡️</div>
+              <h4>OAuth 2.0 Security</h4>
+              <p>Google OAuth verification ensures secure token-based authentication with minimal required permissions.</p>
+            </div>
+            <div class="trust-item">
+              <div class="trust-icon">👤</div>
+              <h4>Full Data Control</h4>
+              <p>You own your data. You can export, edit, or permanently erase your account and gift records anytime.</p>
+            </div>
+            <div class="trust-item">
+              <div class="trust-icon">🚫</div>
+              <h4>Zero Data Selling</h4>
+              <p>We do not sell, rent, or trade your personal information or gifting habits to third parties or advertisers.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Banner Section -->
+      <section class="cta-banner-section">
+        <div class="cta-banner-card">
+          <h2>Start Valuing Your Gifts with GiftPo Today</h2>
+          <p>
+            Join users who celebrate meaningful relationships and keep track of every special gift. Download GiftPo now.
+          </p>
+          <div class="cta-banner-actions">
+            <a href="#" class="store-btn" aria-label="Download GiftPo on the App Store">
+              <svg viewBox="0 0 384 512" width="20" height="20" fill="currentColor">
+                <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+              </svg>
+              <div class="store-text">
+                <span class="small-text">Download on the</span>
+                <span class="large-text">App Store</span>
+              </div>
+            </a>
+            <a href="#" class="store-btn" aria-label="Get GiftPo on Google Play">
+              <svg viewBox="0 0 512 512" width="20" height="20" fill="currentColor">
+                <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z" />
+              </svg>
+              <div class="store-text">
+                <span class="small-text">GET IT ON</span>
+                <span class="large-text">Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
       </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Site Footer -->
     <footer class="site-footer">
-      <p>&copy; 2026 GiftPo. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="./index.html" class="footer-link">Home</a> &nbsp;|&nbsp;
-        <a href="./privacy.html" class="footer-link">Privacy Policy</a> &nbsp;|&nbsp;
-        <a href="./terms.html" class="footer-link">Terms of Service</a> &nbsp;|&nbsp;
-        <a href="./data-deletion.html" class="footer-link">Data Deletion Policy</a>
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="./index.html" class="brand-link">
+              <img src="./apple-touch-icon.png" alt="GiftPo Logo" class="brand-logo" width="36" height="36">
+              <span class="brand-name">Gift<span>Po</span></span>
+            </a>
+            <p>
+              GiftPo is the smart mobile platform for valuing, organizing, and discovering gifts. Celebrate connections and preserve memories.
+            </p>
+          </div>
+
+          <div class="footer-nav">
+            <div class="footer-column">
+              <h4>Navigation</h4>
+              <ul>
+                <li><a href="./index.html#hero">Home</a></li>
+                <li><a href="./index.html#about">About</a></li>
+                <li><a href="./index.html#purpose">App Purpose</a></li>
+                <li><a href="./index.html#features">Features</a></li>
+                <li><a href="./index.html#how-it-works">How It Works</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4>Legal &amp; Policies</h4>
+              <ul>
+                <li><a href="./privacy.html">Privacy Policy</a></li>
+                <li><a href="./terms.html">Terms of Service</a></li>
+                <li><a href="./data-deletion.html">Data Deletion Policy</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4>Contact &amp; Support</h4>
+              <ul>
+                <li><a href="mailto:notepoapp@gmail.com">notepoapp@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 GiftPo. All rights reserved.</p>
+          <p>
+            <a href="./privacy.html">Privacy Policy</a> &nbsp;&bull;&nbsp;
+            <a href="./terms.html">Terms of Service</a> &nbsp;&bull;&nbsp;
+            <a href="./data-deletion.html">Data Deletion</a>
+          </p>
+        </div>
       </div>
     </footer>
   </div>

@@ -5,24 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title | escape }} - GiftPo{% else %}{{ site.title | escape }} - Value Your Gifts{% endif %}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relative_url }}">
   </head>
   <body>
     <div class="page-container">
+      <!-- Site Header -->
+      <header class="site-header">
+        <div class="header-container">
+          <a href="{{ "/" | relative_url }}" class="brand-link" aria-label="GiftPo Home">
+            <img src="{{ "/apple-touch-icon.png" | relative_url }}" alt="GiftPo Logo" class="brand-logo" width="40" height="40">
+            <span class="brand-name">Gift<span>Po</span></span>
+          </a>
+        </div>
+      </header>
+
       {{ content }}
       
       <footer class="site-footer">
-        <p>&copy; {{ site.time | date: "%Y" }} GiftPo. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="{{ "/privacy" | relative_url }}" class="footer-link">Privacy Policy</a>
+        <div class="footer-container">
+          <div class="footer-bottom">
+            <p>&copy; {{ site.time | date: "%Y" }} GiftPo. All rights reserved.</p>
+            <p>
+              <a href="{{ "/privacy.html" | relative_url }}">Privacy Policy</a> &nbsp;&bull;&nbsp;
+              <a href="{{ "/terms.html" | relative_url }}">Terms of Service</a> &nbsp;&bull;&nbsp;
+              <a href="{{ "/data-deletion.html" | relative_url }}">Data Deletion</a>
+            </p>
+          </div>
         </div>
       </footer>
     </div>

@@ -1,5 +1,5 @@
-title: Giftpo
-description: A smart way to manage and discover gifts.
+title: GiftPo
+description: Value your gifts and cherish every connection.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown

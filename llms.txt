@@ -1,19 +1,24 @@
 # GiftPo
 
-> GiftPo is a platform designed to help you truly value the gifts you send and receive. Build deeper, more meaningful connections through thoughtful gifting.
+> GiftPo is a dedicated mobile application designed to help you track, organize, and cherish the sentimental value of every gift you send and receive. Build deeper, more meaningful connections through thoughtful gifting.
 
 ## Overview
-GiftPo is a smart mobile application available for iOS and Android that focuses on the sentimental value of gifting rather than just the management of items.
+GiftPo is a smart mobile application available for iOS and Android that focuses on the sentimental value of gifting rather than just the management of items. It allows users to log gift memories, photos, occasion dates, notes, and view relationship-based gifting histories.
 
-## Features
-- **Nurture Gifts**: Easily keep track of all your wonderful gifts and nurture the relationships that matter most.
-- **Accept Gifts**: Seamlessly accept and organize gifts sent by your loved ones without any stress or hassle.
-- **Invite Friends**: Bring your friends on board to share the joy. The gifting experience is always better together.
+## Core Features
+- **Preserve Memories**: Record gifts received or sent with photos, occasions (birthdays, anniversaries, holidays), and personal notes.
+- **Nurture Relationships**: Maintain a complete history of gifts with individual friends and loved ones.
+- **Accept Gifts**: Seamlessly accept and organize gifts sent by your loved ones with a single tap.
+- **Invite Friends & Wishlists**: Share wishlists and explore thoughtful gifting ideas together.
+
+## Authentication & Privacy
+- **Authentication**: Uses Google Sign-In (OAuth 2.0) requesting minimal non-sensitive scopes (`openid`, `profile`, `email`) for secure identity verification and profile sync.
+- **Privacy & Security**: Zero access to Gmail, Google Drive, Calendar, or Contacts. Adheres strictly to the Google API Services User Data Policy (including Limited Use). Personal data is never sold to third parties or advertisers.
 
 ## Policies
-- [Privacy Policy](https://giftpo.com/privacy.html)
-- [Terms of Service](https://giftpo.com/terms.html)
-- [Data Deletion Policy](https://giftpo.com/data-deletion.html)
+- [Privacy Policy](https://giftpo.jhuppo.com/privacy.html)
+- [Terms of Service](https://giftpo.jhuppo.com/terms.html)
+- [Data Deletion Policy](https://giftpo.jhuppo.com/data-deletion.html)
 
 ## Contact
 Support Email: notepoapp@gmail.com
